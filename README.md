@@ -83,8 +83,7 @@ After extraction, you will find the following CSV files:
 For this research, we selected the file:  
 **`Wednesday-workingHours.pcap_ISCX.csv`**  
 
-- This file contains **692,703 records**  
-- Each record consists of **68 attributes (features)**  
+- This file contains **692,703 records** each  consists of **68 attributes (features)**  
 
 ### **Class Distribution**
 The dataset is labeled with different attack categories. Below is the distribution of samples across different classes:
@@ -98,7 +97,6 @@ The dataset is labeled with different attack categories. Below is the distributi
 | DoS Slowhttptest   | 5,499               |
 | Heartbleed         | 11                  |
 
-This dataset is used to develop and evaluate our **Intrusion Detection System (IDS)**.  
 
 ---
 
