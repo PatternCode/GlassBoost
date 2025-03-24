@@ -31,6 +31,36 @@ This repository contains the code, data, and results associated with the paper "
 - **requirements.txt**: List of Python dependencies for the project.
 - **README.md**: This file, which provides an overview of the repository.
 
+## Dataset (**CIC-IDS 2017**)
+
+The **CIC-IDS 2017** dataset is a widely used benchmark dataset for **Intrusion Detection Systems (IDSs)**. It was created by the Canadian Institute for Cybersecurity (CIC) and contains realistic network traffic data, including both normal and malicious activities. The dataset is designed to help researchers and practitioners develop, evaluate, and benchmark intrusion detection models.
+
+### **Dataset Overview**
+- **Source**: [Canadian Institute for Cybersecurity (CIC)](https://www.unb.ca/cic/datasets/ids-2017.html)
+- **Purpose**: Used for **anomaly detection** and **cybersecurity research**.
+- **Traffic Types**: Includes both **benign** and **malicious** traffic.
+- **Attack Types**:
+  - Brute Force (SSH & FTP)
+  - DoS (Denial of Service)
+  - DDoS (Distributed Denial of Service)
+  - Web Attacks (SQL Injection, XSS, Brute Force)
+  - Infiltration Attacks
+  - Botnet Activity
+  - Port Scanning
+
+### **Features**
+- Network flow-based features extracted using **Bro-IDS** and other analysis tools.
+- Includes **80+ attributes**, such as packet size, flow duration, source/destination IPs, and protocol types.
+- Captures network behavior over a **five-day period**.
+
+### **Download & Usage**
+The dataset can be accessed from the official **[CIC-IDS 2017 website](https://www.unb.ca/cic/datasets/ids-2017.html)**. It is available in various formats, including **CSV and PCAP**, for different analysis purposes.
+
+### **Citing the Dataset**
+If you use this dataset in your research, please cite it as per the guidelines provided by the [Canadian Institute for Cybersecurity](https://www.unb.ca/cic/datasets/ids-2017.html).
+
+
+
 ## How to Use the Code
 
 1. Clone the repository:
