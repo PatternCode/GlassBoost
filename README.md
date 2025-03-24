@@ -55,6 +55,53 @@ The dataset can be accessed from the official **[CIC-IDS 2017 website](https://w
 ### **Citing the Dataset**
 If you use this dataset in your research, please cite it as per the guidelines provided by the [Canadian Institute for Cybersecurity](https://www.unb.ca/cic/datasets/ids-2017.html).
 
+### **Accessing the CIC-IDS 2017 Dataset**
+
+To access the **CIC-IDS 2017** dataset, follow these steps:
+
+1. Visit the official dataset page: [CIC-IDS 2017](https://www.unb.ca/cic/datasets/ids-2017.html).
+2. Scroll to the bottom of the page and click on **"Download this dataset"**.
+3. Fill in the required details, including your **name, email address, and other requested information**.
+4. Click on the **Submit** button.
+5. Once submitted, a page will appear containing a folder named **CIC-IDS-2017**.
+6. Navigate to the **CSVs** folder inside this directory.
+7. Download the file **MachineLearningCSV.zip** and extract its contents.
+
+After extraction, you will find the following CSV files:
+
+| File Name                                    |
+|----------------------------------------------|
+| Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv |
+| Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv |
+| Friday-WorkingHours-Morning.pcap_ISCX.csv      |
+| Monday-WorkingHours.pcap_ISCX.csv            |
+| Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv |
+| Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv |
+| Tuesday-WorkingHours.pcap_ISCX.csv           |
+| Wednesday-workingHours.pcap_ISCX.csv          |
+
+For this research, we selected the file:  
+**`Wednesday-workingHours.pcap_ISCX.csv`**  
+
+- This file contains **692,703 records**  
+- Each record consists of **68 attributes (features)**  
+
+### **Class Distribution**
+The dataset is labeled with different attack categories. Below is the distribution of samples across different classes:
+
+| **Category**          | **Number of Samples** |
+|----------------------|---------------------|
+| BENIGN              | 440,031             |
+| DoS Hulk           | 231,073             |
+| DoS GoldenEye      | 10,293              |
+| DoS slowloris      | 5,796               |
+| DoS Slowhttptest   | 5,499               |
+| Heartbleed         | 11                  |
+
+This dataset is used to develop and evaluate our **Intrusion Detection System (IDS)**.  
+
+---
+
 
 
 ## How to Use the Code
