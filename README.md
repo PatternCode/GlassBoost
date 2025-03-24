@@ -62,10 +62,7 @@ After extraction, you will find the following CSV files:
 | Tuesday-WorkingHours.pcap_ISCX.csv           |
 | Wednesday-workingHours.pcap_ISCX.csv          |
 
-For this research, we selected the file:  
-**`Wednesday-workingHours.pcap_ISCX.csv`**  
-
-- This file contains **692,703 records** each  consists of **68 attributes (features)**  
+For this research, we selected the file **`Wednesday-workingHours.pcap_ISCX.csv`** which contains **692,703 records** each consists of **68 attributes (features)**  
 
 ### **Class Distribution**
 The dataset is labeled with different attack categories. Below is the distribution of samples across different classes:
