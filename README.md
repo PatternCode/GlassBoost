@@ -19,20 +19,6 @@ To achieve this, we first train an XGBoost model on a dataset containing traffic
 This approach enables the development of an explainable model that does not sacrifice performance. By reducing the number of features involved, we generate a shallow, inherently explainable, and accurate decision tree. Performance metrics, including accuracy, precision, and recall, demonstrate the effectiveness of the proposed method.
 
 
-## Files and Directories
-
-- **code/**: Contains all the scripts and notebooks used for data analysis and modeling.
-    - `script1.py`: [Brief description of the script].
-    - `script2.py`: [Brief description of the script].
-- **data/**: Raw and processed data files used in the paper.
-    - `raw_data.csv`: [Brief description of the dataset].
-    - `processed_data.csv`: [Brief description of the processed dataset].
-- **results/**: Results of the analysis (e.g., plots, tables, figures).
-    - `figure1.png`: [Brief description of the figure].
-    - `table1.csv`: [Brief description of the table].
-- **LICENSE**: License information for the repository (if applicable).
-- **requirements.txt**: List of Python dependencies for the project.
-- **README.md**: This file, which provides an overview of the repository.
 
 ## Dataset (**CIC-IDS 2017**)
 
@@ -46,14 +32,10 @@ The **CIC-IDS 2017** dataset is a widely used benchmark dataset for **Intrusion 
 
 ### **Features**
 - Network flow-based features extracted using **Bro-IDS** and other analysis tools.
-- Includes **80+ attributes**, such as packet size, flow duration, source/destination IPs, and protocol types.
+- Includes **70+ attributes**, such as packet size, flow duration, source/destination IPs, and protocol types.
 - Captures network behavior over a **five-day period**.
 
-### **Download & Usage**
-The dataset can be accessed from the official **[CIC-IDS 2017 website](https://www.unb.ca/cic/datasets/ids-2017.html)**. It is available in various formats, including **CSV and PCAP**, for different analysis purposes.
 
-### **Citing the Dataset**
-If you use this dataset in your research, please cite it as per the guidelines provided by the [Canadian Institute for Cybersecurity](https://www.unb.ca/cic/datasets/ids-2017.html).
 
 ### **Accessing the CIC-IDS 2017 Dataset**
 
@@ -120,14 +102,6 @@ The dataset is labeled with different attack categories. Below is the distributi
     jupyter notebook
     ```
 
-## Data Description
-
-Provide a detailed description of the datasets used in the paper. If the data is publicly available, include citations to the original source(s). If the data is proprietary, specify any access conditions.
-
-- **Data source**: [Where did the data come from?]
-- **Size**: [Number of records, or file size]
-- **Format**: [CSV, Excel, etc.]
-- **Description**: [Any specifics on the data collection, preprocessing steps, or features of interest.]
 
 ## Dependencies
 
