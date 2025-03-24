@@ -1,4 +1,5 @@
 # GainXplaine (A Novel Explainable Approach for Intrusion Detection)
+![Alt Text](images/Model_Compression.jpg)
 
 
 **Author:** Ehsan Namjoo  
