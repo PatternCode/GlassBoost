@@ -3,19 +3,21 @@
 
 
 **Author:** Ehsan Namjoo  
-**Affiliations:** Biocomputing and Development Systems, Computer Science and Information System Faculty, University of Limerick.   
+**Affiliation:** Biocomputing and Development Systems, Computer Science and Information System Faculty, University of Limerick.   
 **Date:** March 23, 2025.
 
-## Abstract
+
+## Repository Overview
+
+This repository contains the code, data, and results associated with the paper "A Novel Explainable Approach for Intrusion Detection." It is structured to allow readers to replicate the analyses presented in the paper, explore the methodology in more detail, and use the code for their own research.
+
+## Paper Abstract
 Intrusion Detection Systems (IDSs) are vital defense mechanisms against cyberattacks in data networks. Given the growing frequency and diversity of cyberattacks, designing effective IDSs to protect information systems has become increasingly critical. In addition to achieving acceptable accuracy, the explainability of an IDS is essential for fostering trust and accountability. This paper introduces an explainable anomaly detection system for identifying malicious attacks.
 
 To achieve this, we first train an XGBoost model on a dataset containing traffic features from both malicious and normal activities. Next, we compute Gain scores, which measure the average improvement in the model's loss function due to each feature during splits in the boosting trees. Based on these Gain scores, we extract a subset of significant features. A decision tree is then trained using the most important features—those with the highest Gain scores—where the number of features, denoted as d, is much smaller than the total number of available features.
 
 This approach enables the development of an explainable model that does not sacrifice performance. By reducing the number of features involved, we generate a shallow, inherently explainable, and accurate decision tree. Performance metrics, including accuracy, precision, and recall, demonstrate the effectiveness of the proposed method.
 
-## Repository Overview
-
-This repository contains the code, data, and results associated with the paper "A Novel Explainable Approach for Intrusion Detection." It is structured to allow readers to replicate the analyses presented in the paper, explore the methodology in more detail, and use the code for their own research.
 
 ## Files and Directories
 
