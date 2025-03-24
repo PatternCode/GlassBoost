@@ -102,13 +102,15 @@ The dataset is labeled with different attack categories. Below is the distributi
 
 ## Dependencies
 
-List the dependencies required to run the code, for example:
-- Python 3.x
-- Pandas
-- NumPy
-- Matplotlib
-- scikit-learn
 
-To install the dependencies, use the `requirements.txt` or install them manually:
-```bash
-pip install pandas numpy matplotlib scikit-learn
+| **Package**      | **Version** |
+|--------------|---------|
+| python       | 3.7.1   |
+| numpy        | 1.21.5  |
+| pandas       | 1.3.5   |
+| scikit-learn | 1.0.2   |
+| xgboost      | 1.5.1   |
+| matplotlib   | 3.5.3   |
+| seaborn      | 0.12.2  |
+| graphviz     | 0.20.1  |
+
