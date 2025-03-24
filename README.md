@@ -42,14 +42,7 @@ The **CIC-IDS 2017** dataset is a widely used benchmark dataset for **Intrusion 
 - **Source**: [Canadian Institute for Cybersecurity (CIC)](https://www.unb.ca/cic/datasets/ids-2017.html)
 - **Purpose**: Used for **anomaly detection** and **cybersecurity research**.
 - **Traffic Types**: Includes both **benign** and **malicious** traffic.
-- **Attack Types**:
-  - Brute Force (SSH & FTP)
-  - DoS (Denial of Service)
-  - DDoS (Distributed Denial of Service)
-  - Web Attacks (SQL Injection, XSS, Brute Force)
-  - Infiltration Attacks
-  - Botnet Activity
-  - Port Scanning
+
 
 ### **Features**
 - Network flow-based features extracted using **Bro-IDS** and other analysis tools.
