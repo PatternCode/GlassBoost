@@ -61,7 +61,7 @@ If you use this dataset in your research, please cite it as per the guidelines p
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/username/repository-name.git
+    git clone https://github.com/PatternCode/GainXplaine.git   
     ```
 
 2. Install the necessary dependencies:
@@ -70,12 +70,7 @@ If you use this dataset in your research, please cite it as per the guidelines p
     ```
 
 3. Run the code:
-    - The main analysis script is `script1.py`. To run it, use the following command:
-    ```bash
-    python script1.py
-    ```
-
-4. (Optional) If you're using Jupyter Notebooks, you can open the notebooks in JupyterLab or Jupyter Notebook:
+    - The main analysis script is `main.ipynb`. which contain all the analysis within the paper. there enogh comments and text available in the notebook that make it very easy for users to understand and run. You can open the notebooks in JupyterLab or Jupyter Notebook:
     ```bash
     jupyter notebook
     ```
