@@ -113,4 +113,5 @@ The dataset is labeled with different attack categories. Below is the distributi
 | matplotlib   | 3.5.3   |
 | seaborn      | 0.12.2  |
 | graphviz     | 0.20.1  |
+| joblib       | 1.1.1   |
 
