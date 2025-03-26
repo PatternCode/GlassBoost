@@ -175,6 +175,8 @@ cython_debug/
 
 # graphviz outputs
 *.joblib
+decision_tree_*
+
 
 # PDF files
 *.pdf
