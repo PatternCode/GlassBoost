@@ -94,7 +94,7 @@ The dataset is labeled with different attack categories. Below is the distributi
     ```
 
 3. Run the code:
-    - The main analysis script is `main.ipynb`. which contain all the analysis within the paper. there enogh comments and text available in the notebook that make it very easy for users to understand and run. You can open the notebooks in JupyterLab or Jupyter Notebook:
+    - The main analysis script is `main.ipynb` which contain all the analysis within the paper. There are enogh comments and text available in the notebook that make it very easy for users to understand and run. You can open the notebooks in JupyterLab or Jupyter Notebook:
     ```bash
     jupyter notebook
     ```
