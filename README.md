@@ -2,8 +2,8 @@
 ![Alt Text](images/Model_Compression.jpg)
 
 
-**Author:** Ehsan Namjoo  
-**Affiliation:** Biocomputing and Development Systems, Computer Science and Information System Faculty, University of Limerick.   
+  
+**Biocomputing and Development Systems, Computer Science and Information System Faculty, University of Limerick**.   
 **Date:** March 23, 2025.
 
 
