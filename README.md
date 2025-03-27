@@ -1,10 +1,11 @@
 # GainXplaine (A Novel Explainable Approach for Intrusion Detection)
+**Biocomputing and Development Systems, Computer Science and Information System Faculty, University of Limerick**.   
+**Date:** March 23, 2025.
 ![Alt Text](images/Model_Compression.jpg)
 
 
   
-**Biocomputing and Development Systems, Computer Science and Information System Faculty, University of Limerick**.   
-**Date:** March 23, 2025.
+
 
 
 ## Repository Overview
