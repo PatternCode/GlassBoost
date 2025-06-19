@@ -1,4 +1,4 @@
-# GainXplaine (A Novel Explainable Approach for Intrusion Detection)
+# GlassBoost: A Lightweight and Explainable Classification Framework for Tabular Datasets
 **Biocomputing and Development Systems, Computer Science and Information System Faculty, University of Limerick**.   
 **Date:** March 23, 2025.
 ![Alt Text](images/Model_Compression.jpg)
@@ -115,4 +115,10 @@ The dataset is labeled with different attack categories. Below is the distributi
 | seaborn      | 0.12.2  |
 | graphviz     | 0.20.1  |
 | joblib       | 1.1.1   |
+
+
+---
+
+#### The paper is available here:
+```https://www.mdpi.com/2076-3417/15/12/6931```
 
